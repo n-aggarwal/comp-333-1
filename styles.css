@@ -51,6 +51,21 @@ body {
     color: #fff;
     text-decoration: none;
 }
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-wrap: wrap; /* Allow list items to wrap to the next line */
+        justify-content: center; /* Center items horizontally */
+        display: inline-block;
+        margin-left: 0px;
+    }
+
+    .navbar li {
+        display: inline-block; /* Display list items as blocks for stacking */
+        width: auto ;
+        margin-left: 0px;
+    }
+}
 
 /* 
  * Style the logo in navbar
@@ -61,4 +76,62 @@ body {
     text-align: center;
     justify-content: center;
     background-color: black;
+}
+/*
+ * Style the "pricing" Heading
+ */
+#pricing-heading {
+color: white;
+text-align: center;
+padding-top: 20px;
+font-size: 56px;
+}
+
+#pricing {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.pricing-box {
+    list-style: none;
+    color: white;
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    margin: auto;
+    padding: 20px 50px 50px 50px;
+    width: 20%;
+    min-height: 60vh;
+}
+
+.pricing-tier {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.horizontal-line {
+    height: 2px;
+    width: 90%;
+    margin: 0 auto 60px;
+    background-color: white;
+}
+
+.price-benefits li {
+    margin: 10px auto;
+    font-size: large;
+}
+
+@media (max-width: 900px) {
+    #pricing {
+        flex-direction: column; /* Arrange items vertically on smaller screens */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .pricing-box {
+        width: 60%; /* Adjust the width for smaller screens */
+        justify-content: center;
+        margin: 20px auto;
+        max-width: 350px;
+    }
 }

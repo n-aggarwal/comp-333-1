@@ -7,6 +7,12 @@ body {
     font-family: "Noto Sans SC", sans-serif;
     background-color: #222222;
   }
+
+  #front-page {
+    background-image: url("public/record-player-1851576_1920.jpg");
+    background-size: cover; /* This property ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
 /* Nav bar Styling
  */
 .navbar {

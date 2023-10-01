@@ -1,9 +1,7 @@
 # Music Rating Website
-
-<div style="text-align:center">
-    <img src="public/logo.png" width="200" height="200">
-</div>
-
+<p align="center">
+    <img src="public/logo.png" width="200" height="200" style="display:block;margin:auto" >
+</p>
 Welcome to the official landing page of our upcoming music rating website! This elegant website serves as a glimpse into the innovative world of music exploration and critique. Crafted with precision, this static website is meticulously developed using HTML and CSS, showcasing our commitment to seamless user experiences. No external libraries were utilized, ensuring a lightweight and efficient browsing experience for our users.
 
 **Please Note:** This website was developed as an assignment for COMP333 and is intended for educational purposes. It is not a functional product.

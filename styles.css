@@ -73,6 +73,18 @@ body {
     }
 }
 
+@media (max-width: 420px) {
+
+
+    .navbar li {
+        display: inline-block; 
+        width: auto ;
+        margin-left: 0px;
+        padding: 0px;
+    }
+}
+
+
 /* 
  * Style the logo in navbar
  */
@@ -142,14 +154,14 @@ font-size: 56px;
     }
 }
 
-#description-heading {
+.heading {
     color: rgb(33, 33, 235);
     text-align: center;
     padding-top: 20px;
     font-size: 50px;
     }
 
-.description {
+.block {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,7 +172,7 @@ font-size: 56px;
 
 }
 
-.description-contents {
+.block-contents {
     list-style: none;
     display: flex;
     flex-direction: column;

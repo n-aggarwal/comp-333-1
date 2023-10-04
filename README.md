@@ -49,4 +49,4 @@ This repository is protected under the MIT License, ensuring the principles of o
 
 ## Acknowledgements
 
-This website is a creation of Nishant Aggarwal ([@n-aggarwal](https://github.com/n-aggarwal)) and Anan Afrida ([@ananafrida](https://github.com/ananafrida)). Nishant contributed 50% to the project, and Anan contributed 50% to the project. 
+This website is a creation of Nishant Aggarwal ([@n-aggarwal](https://github.com/n-aggarwal)) and Anan Afrida ([@ananafrida](https://github.com/aafrida)). Nishant contributed 50% to the project, and Anan contributed 50% to the project. 

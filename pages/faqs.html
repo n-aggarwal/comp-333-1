@@ -9,8 +9,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <!--For development purposes only-->
         <meta http-equiv="refresh" content="5">
-        <link rel="icon" href="../public/logo.png" type="image/png">
-        <link rel="shortcut icon" href="../public/logo.png" type="image/png">
+        <link rel="icon" href="../public/logo.webp" type="image/png">
+        <link rel="shortcut icon" href="../public/logo.webp" type="image/png">
         <title>Pricing</title>
         <meta name="description" content="This is the FAQs page of a song rating website. The website is made as an assignment for COMP 333 class at Wesleyan University.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +23,7 @@
         <div id="navbar" class="navbar">
             <div class="logo">
                 <a href="../index.html" aria-label="Homepage">
-                    <img src="../public/logo.png" width="90px" height="90px" alt="logo"/>
+                    <img src="../public/logo.webp" width="90px" height="90px" alt="logo"/>
                 </a>
             </div>
             <ul>
@@ -44,19 +44,19 @@
         <div class="faq-container">
         <div class="faq">
             <div class="faq-item">
-              <button id="faq-button-1" aria-expanded="false"><span class="faq-title">Is Taylor Swift the best singer?</span><span class="icon" aria-hidden="true"></span></button>
+              Is Taylor Swift the best singer?
               <div class="faq-content">
                 <p>Yes, of course without any second thoughts!</p>
               </div>
             </div>
             <div class="faq-item">
-                <button id="faq-button-1" aria-expanded="false"><span class="faq-title">Does music rating app rate music?</span><span class="icon" aria-hidden="true"></span></button>
+                Does music rating app rate music?
                 <div class="faq-content">
                   <p>It may or maynot</p>
                 </div>
               </div>
               <div class="faq-item">
-                <button id="faq-button-1" aria-expanded="false"><span class="faq-title">How do we rat music through a rating app?</span><span class="icon" aria-hidden="true"></span></button>
+                How do we rat music through a rating app?
                 <div class="faq-content">
                   <p>You need to find the "Rate me" button :)</p>
                 </div>
@@ -66,21 +66,6 @@
 
         </div>
         <script>
-            const items = document.querySelectorAll(".faq button");
-
-            function toggleFAQ() {
-            const itemToggle = this.getAttribute('aria-expanded');
-            
-            for (i = 0; i < items.length; i++) {
-                items[i].setAttribute('aria-expanded', 'false');
-            }
-            
-            if (itemToggle == 'false') {
-                this.setAttribute('aria-expanded', 'true');
-            }
-            }
-
-            items.forEach(item => item.addEventListener('click', toggleFAQ));
         </script>
     </body>
 </html>

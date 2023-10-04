@@ -97,6 +97,24 @@ body {
 }
 
 /*
+* Style the feature section
+*/
+.feature-contents{
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px; 
+    padding: 20px; 
+    width: 80%;
+    font-size: x-large;
+    font-weight: bold;
+}
+.feature-contents li{
+    color: #fff;
+}
+
+/*
 * Style the "FAQ" section
 */
 #faq-heading{
@@ -258,7 +276,7 @@ font-size: 56px;
 }
 
 .heading {
-    color: rgb(33, 33, 235);
+    color: #9d5d1c;
     text-align: center;
     padding-top: 20px;
     font-size: 50px;

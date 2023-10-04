@@ -306,3 +306,45 @@ font-size: 56px;
     font-weight: bold;
 
 }
+
+/*
+* Styling the Testimonial section
+*/
+#testimonial-heading {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 56px;
+    }
+    .container {
+    border: 2px rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+    }
+    .container::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    }
+    .container span {
+    font-size: 20px;
+    margin-right: 15px;
+    }
+    @media (max-width: 500px) {
+    .container {
+    text-align: center;
+    }
+    .container img {
+    margin: auto;
+    float: none;
+    display: block;
+    }
+}
+    

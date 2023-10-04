@@ -9,7 +9,7 @@ body {
   }
 
   #front-page {
-    background-image: url("public/record-player-1851576_1920.jpg");
+    background-image: url("asset/record-player-1851576_1920.webp");
     background-size: cover; /* This property ensures the image covers the entire element */
     background-repeat: no-repeat; /* Prevents the image from repeating */
   }

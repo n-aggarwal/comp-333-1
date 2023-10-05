@@ -1,6 +1,6 @@
 # Music Rating Website
 <p align="center">
-    <img src="public/logo.png" width="200" height="200" style="display:block;margin:auto" >
+    <img src="asset/logo.webp" width="200" height="200" style="display:block;margin:auto" >
 </p>
 Welcome to the official landing page of our upcoming music rating website! This elegant website serves as a glimpse into the innovative world of music exploration and critique. Crafted with precision, this static website is meticulously developed using HTML and CSS, showcasing our commitment to seamless user experiences. No external libraries were utilized, ensuring a lightweight and efficient browsing experience for our users.
 
@@ -13,12 +13,13 @@ Welcome to the official landing page of our upcoming music rating website! This 
     - `faqs.html`
     - `pricing.html`
     - `testimonials.html`
-  - **public**
-    - `android-1635207_1280.png`
-    - `logo.png`
-    - `music-5833695_1920.jpg`
-    - `music-7009823_1920.png`
-    - `record-player-1851576_1920.jpg`
+  - **asset**
+    - `android-1635207_1280.webp`
+    - `logo.webp`
+    - `music-5833695_1920.webp`
+    - `music-7009823_1920.webp`
+    - `record-player-1851576_1920.webp`
+    - `Screen-Mockup.webp`
   - `.gitignore`
   - `LICENSE`
   - `index.html`
